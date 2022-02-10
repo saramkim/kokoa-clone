@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-saram
+HTML & CSS practice
