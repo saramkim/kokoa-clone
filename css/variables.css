@@ -1,0 +1,18 @@
+:root {
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --font-color: rgba(0, 0, 0, 0.5);
+}
+
+.plus {
+  margin-top: 125px;
+}
+.plus-2 {
+  position: relative;
+}
+.plus-3 {
+  margin-top: 50px;
+}
+.plus-4 {
+  padding-bottom: 60px;
+}

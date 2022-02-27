@@ -1,0 +1,31 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 25px;
+  opacity: 0.9;
+}
+.settings__setting-column:last-child {
+  color: var(--font-color);
+}
+
+@keyframes stack {
+  to {
+    transform: translateY(calc(100vh - 394px));
+  }
+}
+.settings-list li {
+  animation: stack 1s ease-in forwards;
+}
+.settings-list li:first-child {
+  animation-delay: 0.5s;
+}
+.settings-list li:nth-child(2) {
+  animation-delay: 0.25s;
+}
