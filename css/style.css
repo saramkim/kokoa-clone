@@ -25,6 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 100%;
   padding-bottom: 90px;
+  overflow-x: hidden;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
