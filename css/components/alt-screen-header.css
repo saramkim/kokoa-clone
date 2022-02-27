@@ -9,11 +9,12 @@
   background-color: white;
 }
 .alt-header__column {
-  width: calc(100% / 3);
+  width: 25%;
 }
 .alt-header__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 .alt-header__column:last-child {
   display: flex;
